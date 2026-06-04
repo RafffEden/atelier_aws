@@ -207,7 +207,7 @@ Le job **échoue volontairement** — cet échec est visible dans CloudWatch.
 | Règle | Valeur |
 |---|---|
 | Âge maximum | 80 ans |
-| Perte d'énergie par étape | 10 points |
+| Changement d'énergie par étape | -10/+10 points |
 | Âge de reproduction | 18 – 45 ans |
 | Énergie minimale pour reproduire | 50 points |
 | Enfants par couple | 2 |
