@@ -57,7 +57,7 @@ s3.put_object(
 print(f"✅ {len(continents)} continents créés : {[c['name'] for c in continents]}")
 
 # ─────────────────────────────────────────
-# 3. Création des 2 premiers habitants
+# 3. Création des 4 premiers habitants
 # ─────────────────────────────────────────
 inhabitants = [
     {
@@ -80,6 +80,30 @@ inhabitants = [
         "energy": 100,
         "health": 100,
         "continent": "Arkon",
+        "status": "alive",
+        "born_at_step": 0,
+        "died_at_step": None
+    },
+    {
+        "inhabitant_id": str(uuid.uuid4()),
+        "name": "Thalion",
+        "gender": "M",
+        "age": 28,
+        "energy": 100,
+        "health": 100,
+        "continent": "Selvara",
+        "status": "alive",
+        "born_at_step": 0,
+        "died_at_step": None
+    },
+    {
+        "inhabitant_id": str(uuid.uuid4()),
+        "name": "Sylara",
+        "gender": "F",
+        "age": 26,
+        "energy": 100,
+        "health": 100,
+        "continent": "Selvara",
         "status": "alive",
         "born_at_step": 0,
         "died_at_step": None
