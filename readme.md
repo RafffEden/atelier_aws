@@ -214,25 +214,9 @@ Le job **échoue volontairement** — cet échec est visible dans CloudWatch.
 | Seuil de catastrophe | 1 000 habitants |
 | Mortalité catastrophe | 60% |
 
----
-
-## 💡 Pour aller plus loin
-
-- Ajouter plusieurs continents avec des taux de fertilité différents
-- Implémenter plusieurs types d'habitants (guerriers, sages, explorateurs)
-- Simuler plusieurs types de catastrophes (épidémie, famine, guerre)
-- Ajouter des indicateurs avancés dans Athena (taux de reproduction, espérance de vie)
-- Automatiser l'exécution du Glue Job avec **AWS EventBridge** (toutes les X minutes)
 
 ---
 
-## ⚠️ Points d'attention
-
-- **Sauvegarder les scripts en local** après chaque session : le lab AWS s'éteint et efface tout.
-- Bien relancer `MSCK REPAIR TABLE` dans Athena après chaque étape d'évolution.
-- Le `RuntimeError` final du job est **volontaire** — c'est le comportement attendu pour signaler la fin du monde dans CloudWatch.
-
----
 
 ## 📋 Fichiers du projet
 
