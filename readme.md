@@ -227,3 +227,17 @@ Le job **échoue volontairement** — cet échec est visible dans CloudWatch.
 | `cloudwatch_monitoring.py` | Métriques custom et alarmes CloudWatch |
 | `athena_setup_and_queries.sql` | Création des tables et requêtes d'analyse |
 | `README.md` | Ce fichier |
+
+---
+
+## Capture d'écrran
+
+![BucketS3](img/BucketS3.png)
+
+![InitWorld](img/initWorld.png)
+
+![Evolution](img/Evolution.png)
+
+![AthenaDb](img/AthenaDB.png)
+
+![requeteAthena](img/RequeteAthena.png)

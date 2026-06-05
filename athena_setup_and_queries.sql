@@ -1,10 +1,3 @@
--- ════════════════════════════════════════════════════════
--- ÉTAPE 3 — Configuration Athena — Monde virtuel
--- ════════════════════════════════════════════════════════
--- Exécute chaque bloc séparément dans l'éditeur Athena.
--- Remplace world-simulation-rtes par ton bucket.
--- ════════════════════════════════════════════════════════
-
 
 -- ────────────────────────────────────────
 -- 3A. Créer la base de données

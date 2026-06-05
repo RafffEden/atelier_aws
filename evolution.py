@@ -1,12 +1,3 @@
-"""
-ÉTAPE 2 — Glue Job d'évolution du monde virtuel
-=================================================
-À coller dans un AWS Glue Job (type : Spark / Python Shell).
-Exécute ce job plusieurs fois pour faire évoluer la population.
-
-Remplace BUCKET_NAME par le nom de ton bucket S3.
-"""
-
 import json
 import uuid
 import random

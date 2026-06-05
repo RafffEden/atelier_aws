@@ -1,13 +1,3 @@
-"""
-ÉTAPE 4 — Monitoring CloudWatch
-================================
-Ajoute ces fonctions à ton evolution_job.py existant.
-Elles envoient des métriques et logs structurés vers CloudWatch
-à chaque étape d'évolution.
-
-Remplace BUCKET_NAME par le nom de ton bucket.
-"""
-
 import json
 import uuid
 import random

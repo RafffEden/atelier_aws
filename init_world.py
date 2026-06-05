@@ -1,10 +1,3 @@
-"""
-ÉTAPE 1 — Initialisation du monde virtuel
-==========================================
-À exécuter dans un notebook AWS Glue (une seule fois).
-Remplace BUCKET_NAME par le nom de ton bucket S3.
-"""
-
 import json
 import uuid
 import boto3
